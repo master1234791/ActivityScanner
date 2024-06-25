@@ -51,7 +51,7 @@ domReady(function () {
        
         setDoc(doc(firestore, "Activities",result), {
             Activity:Act_date,
-            Activity1:Act_date
+            ActName:Act_name
          });
       //  Timestamp.fromDate(new Date(Act_date)),}
       alert("Scanned");
