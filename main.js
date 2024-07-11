@@ -7,12 +7,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebas
 import { getFirestore, collection, addDoc,doc,setDoc, Timestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCoqs-uC7DN5-lVLk79bbDvmM7AGAjYyT0",
-  authDomain: "teacheraid2-89ea5.firebaseapp.com",
-  projectId: "teacheraid2-89ea5",
-  storageBucket: "teacheraid2-89ea5.appspot.com",
-  messagingSenderId: "421961067051",
-  appId: "1:421961067051:web:98abfd1993fefb1004186e"
+      apiKey: "AIzaSyCdtcW4K3M3MxhvV-UeOsqLncDobqx_760",
+  authDomain: "teacheraid-d3712.firebaseapp.com",
+  projectId: "teacheraid-d3712",
+  storageBucket: "teacheraid-d3712.appspot.com",
+  messagingSenderId: "661328003243",
+  appId: "1:661328003243:web:67fe76d194ea3a40fc77ee",
+  measurementId: "G-RT4V4KHWFJ"
 };
 
 const app = initializeApp(firebaseConfig);
